@@ -1,0 +1,1 @@
+PODS_MAPS_TEST_JRSWIZZLE_OTHER_LDFLAGS = -framework Foundation

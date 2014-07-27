@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "7.0"
+xcodeproj 'maps_test'
+
+target "maps_test" do
+    pod 'Mapbox-iOS-SDK', '~> 1.2'
+    pod 'SWRevealViewController', '~> 2.1.0'
+end
+
+target "maps_testTests" do
+
+end
+
