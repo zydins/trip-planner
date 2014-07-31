@@ -6,3 +6,4 @@
 #import <UIKit/UIKit.h>
 #import <Mapbox-iOS-SDK/Mapbox.h>
 #import <SWRevealViewController/SWRevealViewController.h>
+#import "MapViewController.h"

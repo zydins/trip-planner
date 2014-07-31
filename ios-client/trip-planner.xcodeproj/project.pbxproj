@@ -12,10 +12,13 @@
 		44B869E81976EAC000E87515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B869E71976EAC000E87515 /* AppDelegate.swift */; };
 		44B869EA1976EAC000E87515 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B869E91976EAC000E87515 /* Images.xcassets */; };
 		44B869F61976EAC000E87515 /* maps_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B869F51976EAC000E87515 /* maps_testTests.swift */; };
-		44B86A001976EACD00E87515 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B869FF1976EACD00E87515 /* Storyboard.storyboard */; };
 		44B86A131976FB5A00E87515 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B86A121976FB5A00E87515 /* CitiesTableViewController.swift */; };
-		B0F75FFE198438020003221A /* MenuVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F75FFD198438020003221A /* MenuVIewController.swift */; };
-		B0F760011985756C0003221A /* TRMapVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F760001985756C0003221A /* TRMapVIew.m */; };
+		B0E3B42C19878CBC002FF1FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3B42B19878CBC002FF1FC /* ProfileViewController.swift */; };
+		B0E3B43019879007002FF1FC /* userPic.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3B42F19879007002FF1FC /* userPic.png */; };
+		B0E3B43319894799002FF1FC /* planc.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3B43219894799002FF1FC /* planc.png */; };
+		B0E3B435198950E9002FF1FC /* cogwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E3B434198950E9002FF1FC /* cogwheel.png */; };
+		B0E3B43619895B5C002FF1FC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E3B43819895B5C002FF1FC /* Storyboard.storyboard */; };
+		B0F75FFE198438020003221A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F75FFD198438020003221A /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,20 +35,22 @@
 		13D227A4080643279CF815A5 /* Pods-maps_test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maps_test.xcconfig"; path = "Pods/Pods-maps_test.xcconfig"; sourceTree = "<group>"; };
 		443AA1001980355000B57EA7 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		443AA1011980355000B57EA7 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		44B869E21976EAC000E87515 /* maps_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maps_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B869E21976EAC000E87515 /* trip-planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trip-planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B869E61976EAC000E87515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44B869E71976EAC000E87515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B869E91976EAC000E87515 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		44B869EF1976EAC000E87515 /* maps_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maps_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B869EF1976EAC000E87515 /* trip-plannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "trip-plannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B869F41976EAC000E87515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44B869F51976EAC000E87515 /* maps_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps_testTests.swift; sourceTree = "<group>"; };
-		44B869FF1976EACD00E87515 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		44B86A121976FB5A00E87515 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
 		44B86A18197ED30300E87515 /* maps_test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "maps_test-Bridging-Header.h"; sourceTree = "<group>"; };
 		A79700BA34FD4346AB99A78B /* libPods-maps_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-maps_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0F75FFD198438020003221A /* MenuVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVIewController.swift; sourceTree = "<group>"; };
-		B0F75FFF1985756C0003221A /* TRMapVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMapVIew.h; sourceTree = "<group>"; };
-		B0F760001985756C0003221A /* TRMapVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMapVIew.m; sourceTree = "<group>"; };
+		B0E3B42B19878CBC002FF1FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B0E3B42F19879007002FF1FC /* userPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPic.png; sourceTree = "<group>"; };
+		B0E3B43219894799002FF1FC /* planc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planc.png; sourceTree = "<group>"; };
+		B0E3B434198950E9002FF1FC /* cogwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cogwheel.png; sourceTree = "<group>"; };
+		B0E3B43719895B5C002FF1FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
+		B0F75FFD198438020003221A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +75,8 @@
 		44B869D91976EABF00E87515 = {
 			isa = PBXGroup;
 			children = (
-				44B869E41976EAC000E87515 /* maps_test */,
-				44B869F21976EAC000E87515 /* maps_testTests */,
+				44B869E41976EAC000E87515 /* trip-planner */,
+				44B869F21976EAC000E87515 /* trip-plannerTests */,
 				44B869E31976EAC000E87515 /* Products */,
 				13D227A4080643279CF815A5 /* Pods-maps_test.xcconfig */,
 				99DE6AC507B34F048E85AF17 /* Frameworks */,
@@ -81,27 +86,29 @@
 		44B869E31976EAC000E87515 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44B869E21976EAC000E87515 /* maps_test.app */,
-				44B869EF1976EAC000E87515 /* maps_testTests.xctest */,
+				44B869E21976EAC000E87515 /* trip-planner.app */,
+				44B869EF1976EAC000E87515 /* trip-plannerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44B869E41976EAC000E87515 /* maps_test */ = {
+		44B869E41976EAC000E87515 /* trip-planner */ = {
 			isa = PBXGroup;
 			children = (
+				B0E3B4311989478A002FF1FC /* pics */,
+				B0E3B42F19879007002FF1FC /* userPic.png */,
 				44B869E71976EAC000E87515 /* AppDelegate.swift */,
 				44B869E91976EAC000E87515 /* Images.xcassets */,
 				44B869E51976EAC000E87515 /* Supporting Files */,
-				44B869FF1976EACD00E87515 /* Storyboard.storyboard */,
+				B0E3B43819895B5C002FF1FC /* Storyboard.storyboard */,
+				B0E3B42B19878CBC002FF1FC /* ProfileViewController.swift */,
 				443AA1001980355000B57EA7 /* MapViewController.h */,
 				443AA1011980355000B57EA7 /* MapViewController.m */,
-				B0F75FFF1985756C0003221A /* TRMapVIew.h */,
-				B0F760001985756C0003221A /* TRMapVIew.m */,
-				B0F75FFD198438020003221A /* MenuVIewController.swift */,
 				44B86A121976FB5A00E87515 /* CitiesTableViewController.swift */,
+				B0F75FFD198438020003221A /* MenuViewController.swift */,
 				44B86A18197ED30300E87515 /* maps_test-Bridging-Header.h */,
 			);
+			name = "trip-planner";
 			path = maps_test;
 			sourceTree = "<group>";
 		};
@@ -113,12 +120,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		44B869F21976EAC000E87515 /* maps_testTests */ = {
+		44B869F21976EAC000E87515 /* trip-plannerTests */ = {
 			isa = PBXGroup;
 			children = (
 				44B869F51976EAC000E87515 /* maps_testTests.swift */,
 				44B869F31976EAC000E87515 /* Supporting Files */,
 			);
+			name = "trip-plannerTests";
 			path = maps_testTests;
 			sourceTree = "<group>";
 		};
@@ -138,12 +146,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B0E3B4311989478A002FF1FC /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				B0E3B434198950E9002FF1FC /* cogwheel.png */,
+				B0E3B43219894799002FF1FC /* planc.png */,
+			);
+			name = pics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44B869E11976EAC000E87515 /* maps_test */ = {
+		44B869E11976EAC000E87515 /* trip-planner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44B869F91976EAC000E87515 /* Build configuration list for PBXNativeTarget "maps_test" */;
+			buildConfigurationList = 44B869F91976EAC000E87515 /* Build configuration list for PBXNativeTarget "trip-planner" */;
 			buildPhases = (
 				F941DD7193A749C891E3EA3A /* Check Pods Manifest.lock */,
 				44B869DE1976EAC000E87515 /* Sources */,
@@ -155,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = maps_test;
+			name = "trip-planner";
 			productName = maps_test;
-			productReference = 44B869E21976EAC000E87515 /* maps_test.app */;
+			productReference = 44B869E21976EAC000E87515 /* trip-planner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		44B869EE1976EAC000E87515 /* maps_testTests */ = {
+		44B869EE1976EAC000E87515 /* trip-plannerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44B869FC1976EAC000E87515 /* Build configuration list for PBXNativeTarget "maps_testTests" */;
+			buildConfigurationList = 44B869FC1976EAC000E87515 /* Build configuration list for PBXNativeTarget "trip-plannerTests" */;
 			buildPhases = (
 				44B869EB1976EAC000E87515 /* Sources */,
 				44B869EC1976EAC000E87515 /* Frameworks */,
@@ -173,9 +190,9 @@
 			dependencies = (
 				44B869F11976EAC000E87515 /* PBXTargetDependency */,
 			);
-			name = maps_testTests;
+			name = "trip-plannerTests";
 			productName = maps_testTests;
-			productReference = 44B869EF1976EAC000E87515 /* maps_testTests.xctest */;
+			productReference = 44B869EF1976EAC000E87515 /* trip-plannerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 44B869DD1976EAC000E87515 /* Build configuration list for PBXProject "maps_test" */;
+			buildConfigurationList = 44B869DD1976EAC000E87515 /* Build configuration list for PBXProject "trip-planner" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44B869E11976EAC000E87515 /* maps_test */,
-				44B869EE1976EAC000E87515 /* maps_testTests */,
+				44B869E11976EAC000E87515 /* trip-planner */,
+				44B869EE1976EAC000E87515 /* trip-plannerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,8 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E3B435198950E9002FF1FC /* cogwheel.png in Resources */,
+				B0E3B43019879007002FF1FC /* userPic.png in Resources */,
 				44B869EA1976EAC000E87515 /* Images.xcassets in Resources */,
-				44B86A001976EACD00E87515 /* Storyboard.storyboard in Resources */,
+				B0E3B43319894799002FF1FC /* planc.png in Resources */,
+				B0E3B43619895B5C002FF1FC /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0F760011985756C0003221A /* TRMapVIew.m in Sources */,
 				443AA1021980355000B57EA7 /* MapViewController.m in Sources */,
 				44B869E81976EAC000E87515 /* AppDelegate.swift in Sources */,
+				B0E3B42C19878CBC002FF1FC /* ProfileViewController.swift in Sources */,
 				44B86A131976FB5A00E87515 /* CitiesTableViewController.swift in Sources */,
-				B0F75FFE198438020003221A /* MenuVIewController.swift in Sources */,
+				B0F75FFE198438020003221A /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +312,21 @@
 /* Begin PBXTargetDependency section */
 		44B869F11976EAC000E87515 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 44B869E11976EAC000E87515 /* maps_test */;
+			target = 44B869E11976EAC000E87515 /* trip-planner */;
 			targetProxy = 44B869F01976EAC000E87515 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0E3B43819895B5C002FF1FC /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E3B43719895B5C002FF1FC /* en */,
+			);
+			name = Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		44B869F71976EAC000E87515 /* Debug */ = {
@@ -317,6 +348,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -359,6 +391,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -384,7 +417,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = maps_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "trip-planner";
 				SWIFT_OBJC_BRIDGING_HEADER = "maps_test/maps_test-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -399,7 +432,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = maps_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "trip-planner";
 				SWIFT_OBJC_BRIDGING_HEADER = "maps_test/maps_test-Bridging-Header.h";
 			};
 			name = Release;
@@ -418,7 +451,7 @@
 				);
 				INFOPLIST_FILE = maps_testTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "trip-plannerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -433,7 +466,7 @@
 				);
 				INFOPLIST_FILE = maps_testTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "trip-plannerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -441,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44B869DD1976EAC000E87515 /* Build configuration list for PBXProject "maps_test" */ = {
+		44B869DD1976EAC000E87515 /* Build configuration list for PBXProject "trip-planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44B869F71976EAC000E87515 /* Debug */,
@@ -450,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44B869F91976EAC000E87515 /* Build configuration list for PBXNativeTarget "maps_test" */ = {
+		44B869F91976EAC000E87515 /* Build configuration list for PBXNativeTarget "trip-planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44B869FA1976EAC000E87515 /* Debug */,
@@ -459,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44B869FC1976EAC000E87515 /* Build configuration list for PBXNativeTarget "maps_testTests" */ = {
+		44B869FC1976EAC000E87515 /* Build configuration list for PBXNativeTarget "trip-plannerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44B869FD1976EAC000E87515 /* Debug */,

@@ -10,8 +10,18 @@
 #import <UIKit/UIKit.h>
 #import <Mapbox-iOS-SDK/Mapbox.h>
 #import "SWRevealViewController/SWRevealViewController.h"
-#import "TRMapVIew.h"
 
-@interface MapViewController : UIViewController
+@interface MapViewController : UIViewController <SWRevealViewControllerDelegate>
+//@property (nonatomic) double lat;
+//@property (nonatomic) double lon;
+//@property (nonatomic) int days;
+
+// a class "property"
++ (double) lat;
++ (void) setLat:(double)value;
++ (double) lon;
++ (void) setLon:(double)value;
++ (int) days;
++ (void) setDays:(int)value;
 
 @end

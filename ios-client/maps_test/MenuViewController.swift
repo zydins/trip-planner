@@ -10,13 +10,11 @@ import UIKit
 
 var days = 7
 
-class MenuVIewController:  UITableViewController, UITableViewDelegate, UITableViewDataSource {
-
+class MenuViewController:  UITableViewController, UITableViewDelegate, UITableViewDataSource {
+      
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.view.backgroundColor = UIColor(white: 0.2, alpha: 1.0)
-//        self.tableView.backgroundColor = UIColor(white: 0.2, alpha: 1.0)
-//        self.tableView.separatorColor = UIColor(white: 0.15, alpha: 0.2)
     }
     
     //TableView methods
@@ -45,5 +43,4 @@ class MenuVIewController:  UITableViewController, UITableViewDelegate, UITableVi
         cell.textLabel.textAlignment = NSTextAlignment.Right
         return cell
     }
-
 }
